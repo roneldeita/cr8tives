@@ -22,7 +22,7 @@ export default ({form, coverLoading, updateCoverLoading, upload, loading, update
     listType:"picture-card",
     className:"avatar-uploader",
     showUploadList:false,
-    action:'http://10.10.1.223:1900/albums/'+ album.id +'/covers',
+    action:'http://35.200.155.233/albums/'+ album.id +'/covers',
     onChange(info){
       const status = info.file.status;
       if(status === 'uploading'){
@@ -40,7 +40,7 @@ export default ({form, coverLoading, updateCoverLoading, upload, loading, update
     accept:'video/*,image/*',
     name:'contents',
     multiple:true,
-    action:'http://10.10.1.223:1900/albums/'+ album.id +'/contents',
+    action:'http://35.200.155.233/albums/'+ album.id +'/contents',
     showUploadList:false,
     onChange(info){
       const status = info.file.status

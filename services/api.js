@@ -1,5 +1,5 @@
 import axios from 'axios'
-const HOST = 'http://10.10.1.223:1900'
+const HOST = 'http://35.200.155.233'
 
 export function Gallery(data, header) {
   return {
